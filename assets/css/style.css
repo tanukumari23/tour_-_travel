@@ -421,12 +421,12 @@ color: black;
 \*-----------------------------------*/
 
 .tour-search {
-  background: var(--bright-navy-blue);
+  background: var(--white);
   padding-block: var(--section-padding);
 }
 
 .tour-search-form .input-label {
-  color: var(--white);
+  color: var(--black);
   font-size: var(--fs-4);
   margin-left: 20px;
   margin-bottom: 10px;
@@ -437,12 +437,15 @@ color: black;
   padding: 10px 15px;
   font-size: var(--fs-5);
   border-radius: 50px;
+  border: 1px solid black;
 }
 .tour-search-form .input-field_textarea {
   background: var(--white);
   padding: 10px 15px;
   font-size: var(--fs-5);
   border-radius: 30px;
+  border: 1px solid black;
+
 }
 
 .tour-search-form .input-field::placeholder { color: var(--spanish-gray); }
@@ -774,6 +777,8 @@ address {
   padding: 15px 20px;
   border-radius: 100px;
   margin-bottom: 10px;
+  border: 1px solid black;
+
 }
 
 .footer-form .btn { width: 100%; }
@@ -1295,7 +1300,7 @@ address {
      * spacing
      */
 
-    --section-padding: 100px;
+    /* --section-padding: 100px; */
 
   }
 
@@ -1389,8 +1394,8 @@ address {
 .item2{
   grid-column: 1/5 !important;
   font-size: 25px;
-  font-weight: bold;
-color: white;
+  font-weight: 600;
+color: black;
   /* background-color: white; */
 
 }
@@ -1399,7 +1404,7 @@ color: white;
 
 }
 .item-1 button{
-  background-color: #e15f5f !important;
+  /* background-color: #e15f5f !important; */
   color: #fff;
 }
 .item-1 button:hover{
@@ -1409,8 +1414,17 @@ color: white;
 
 hr{
   margin-bottom: 10px !important;
+  color: black !important;
 }
 .item-4{
   grid-column: 1/5 !important;
 
+}
+i{
+  float: right !important;
+  margin-right: 10px !important;
+}
+.mb-0{
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
 }

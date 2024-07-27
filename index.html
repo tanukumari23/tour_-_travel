@@ -13,6 +13,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body id="top">
@@ -26,31 +27,30 @@
 
         </div>
       </section>
-      <section class="tour-search">
+      <section class="tour-search mb-0">
         <div class="container">
-          <!-- <button class="btn rounded-0 btn-danger w-100">Staff Personal Details</button> -->
             <form action="" class="tour-search-form">
               <div class="item2 p-5 text-center">
                 <hr class="my-5 py-5">
-                <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" >Staff Personal Details</span></p>
+                <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" id="personal_details">Staff Personal Details <i class="fa-solid fa-chevron-down"></i></span></p>
               </div> 
 
-              <div class="input-wrapper">
+              <div class="input-wrapper input_wrapper1" style="display: none;">
                 <label for="passenger-name" class="input-label">Traveller Name*</label>
                 <input type="text" name="passenger-name" id="passenger-name" required placeholder="Enter Passenger Name" class="input-field">
               </div>
     
-              <div class="input-wrapper">
+              <div class="input-wrapper input_wrapper1" style="display: none;">
                 <label for="email" class="input-label">Email*</label>
                 <input type="email" name="email" id="email" required placeholder="Enter Email" class="input-field">
               </div>
 
-              <div class="input-wrapper">
+              <div class="input-wrapper input_wrapper1" style="display: none;">
                 <label for="phone" class="input-label">Phone*</label>
                 <input type="number" name="phone" id="phone" required placeholder="Enter Phone Number" class="input-field">
               </div>
     
-              <div class="input-wrapper">
+              <div class="input-wrapper input_wrapper1" style="display: none;">
                 <label for="gender" class="input-label">Gender*</label>
                 <select name="gender" id="gender" required class="input-field">
                   <option value="Select" selected disabled>Select</option>
@@ -60,7 +60,7 @@
                 </select>
               </div>
     
-              <div class="input-wrapper">
+              <div class="input-wrapper input_wrapper1" style="display: none;">
                 <label for="dob" class="input-label">Date of Birth*</label>
                 <input type="date" name="dob" id="dob" required class="input-field">
               </div>
@@ -69,35 +69,35 @@
               <!-- Travel Details -->
               <div class="item2 p-5 text-center">
                 <hr>
-                <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" >Travel Details</span></p>
+                <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" id="travel_details">Travel Details <i class="fa-solid fa-chevron-down"></i></span></p>
               </div> 
 
-              <div class="input-wrapper">
+              <div class="input-wrapper input_wrapper2" style="display: none;">
                 <label for="travel-date" class="input-label">Travel Date*</label>
                 <input type="date" name="travel-date" id="travel-date" required class="input-field">
               </div>
     
-              <div class="input-wrapper">
+              <div class="input-wrapper input_wrapper2" style="display: none;">
                 <label for="return-date" class="input-label">Return Date*</label>
                 <input type="date" name="return-date" id="return-date" required class="input-field">
               </div>
 
-              <div class="input-wrapper">
+              <div class="input-wrapper input_wrapper2" style="display: none;">
                 <label for="travel-from" class="input-label">Travel From*</label>
                 <input type="text" name="travel-from" id="travel-from" required placeholder="Enter Departure Location" class="input-field">
               </div>
     
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper2" style="display: none;">
                   <label for="travel-to" class="input-label">Travel To*</label>
                   <input type="text" name="travel-to" id="travel-to" required placeholder="Enter Destination" class="input-field">
                 </div>
     
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper2" style="display: none;">
                   <label for="preferred-time" class="input-label">Preferred Travel Time*</label>
                   <input type="time" name="preferred-time" id="preferred-time" required class="input-field">
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper2" style="display: none;">
                   <label for="travel-mode" class="input-label">Travel Mode*</label>
                   <select name="travel-mode" id="travel-mode" required class="input-field">
                     <option value="Select" selected disabled>Select</option>
@@ -107,17 +107,17 @@
                   </select>
                 </div>
     
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper2" style="display: none;">
                   <label for="preferred-train" class="input-label">Any Preferred train/flight*</label>
                   <input type="text" name="preferred-train" id="preferred-train" required class="input-field" placeholder="Enter Prefereed train/flight">
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper2" style="display: none;">
                   <label for="preferred-meal" class="input-label">Any Meal*</label>
                   <input type="text" name="preferred-meal" id="preferred-meal" required class="input-field" placeholder="Enter Prefereed meal">
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper2" style="display: none;">
                   <label for="preferred-seat" class="input-label">Preferred Seat*</label>
                   <select name="preferred-seat" id="preferred-seat" required class="input-field">
                     <option value="Select" selected disabled>Select</option>
@@ -127,7 +127,7 @@
                   </select>
                 </div>
 
-                <div class="item-3">
+                <div class="item-3 input_wrapper2" style="display: none;">
                   <label for="purpose" class="input-label">Travel Purpose*</label>
                   <textarea name="" id="" name="purpose" id="purpose" required class="input-field" style="width: 100%;" rows="1" style="resize: none;"></textarea>
                 </div>
@@ -135,20 +135,20 @@
                 <!-- Accomodation -->
                 <div class="item2 p-5 text-center">
                   <hr>
-                  <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" >Accomodation</span></p>
+                  <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" id="accomodation">Accomodation <i class="fa-solid fa-chevron-down"></i></span></p>
                 </div> 
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper3" style="display: none;">
                   <label for="check-in" class="input-label">Accomodation : Check In*</label>
                   <input type="date" name="check-in" id="check-in" required placeholder="Enter Check-in" class="input-field">
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper3" style="display: none;">
                   <label for="check-out" class="input-label">Accomodation : Check Out*</label>
                   <input type="date" name="check-out" id="check-out" required placeholder="Enter Check-out" class="input-field">
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper3" style="display: none;">
                   <label for="occupancy" class="input-label">Occupancy*</label>
                   <select name="occupancy" id="occupancy" required class="input-field">
                     <option value="Select" selected disabled>Select</option>
@@ -157,12 +157,12 @@
                   </select>
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper3" style="display: none;">
                   <label for="pref_meal" class="input-label">Preferred Meal*</label>
                   <input type="text" name="pref_meal" id="pref_meal" required placeholder="Enter Preferred Meal" class="input-field">
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper3" style="display: none;">
                   <label for="pref_hotel" class="input-label">Preferred Hotel*</label>
                   <input type="text" name="pref_hotel" id="pref_hotel" required placeholder="Enter Preferred Hotel" class="input-field">
                 </div>
@@ -171,30 +171,30 @@
                 <!--Work Day Details  -->
                 <div class="item2 p-5 text-center">
                   <hr>
-                  <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" >Work Day Details</span></p>
+                  <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" id="work_day">Work Day Details <i class="fa-solid fa-chevron-down"></i></span></p>
                 </div> 
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper4" style="display: none;">
                   <label for="team" class="input-label">Team*</label>
                   <input type="text" name="team" id="team" required placeholder="Enter Team" class="input-field">
                 </div>
                 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper4" style="display: none;">
                   <label for="business_unit" class="input-label">Business Unit*</label>
                   <input type="text" name="business_unit" id="business_unit" required placeholder="Enter Business Unit" class="input-field">
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper4" style="display: none;">
                   <label for="budget_impacted" class="input-label">Budget Impacted*</label>
                   <input type="text" name="budget_impacted" id="budget_impacted" required placeholder="Enter Budget Impacted" class="input-field">
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper4" style="display: none;">
                   <label for="Program" class="input-label">Program*</label>
                   <input type="text" name="Program" id="Program" required placeholder="Enter Program" class="input-field">
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper4" style="display: none;">
                   <label for="cost_center" class="input-label">Cost Center*</label>
                   <input type="text" name="cost_center" id="cost_center" required placeholder="Enter Cost Center" class="input-field">
                 </div>
@@ -202,20 +202,20 @@
                 <!--Pick up/Drop Details  -->
                 <div class="item2 p-5 text-center">
                   <hr>
-                  <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" >Pick Up/ Drop (Local)</span></p>
+                  <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" id="pick_up_drop">Pick Up/ Drop (Local) <i class="fa-solid fa-chevron-down"></i></span></p>
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper5" style="display: none;">
                   <label for="pick-up" class="input-label">Pick up Point*</label>
                   <input type="text" name="pick-up" id="pick-up" required placeholder="Enter Pick up Point" class="input-field">
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper5" style="display: none;">
                   <label for="pick-up_time" class="input-label">Pick up Time*</label>
                   <input type="time" name="pick-up_time" id="pick-up_time" required placeholder="Enter Pick Up Time" class="input-field">
                 </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper input_wrapper5" style="display: none;">
                   <label for="drop_point" class="input-label">Drop Point*</label>
                   <input type="text" name="drop_point" id="drop_point" required placeholder="Enter Drop Point" class="input-field">
                 </div>
@@ -223,24 +223,97 @@
                 <!--Any Other Details  -->
                 <div class="item2 p-5 text-center">
                   <hr>
-                  <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" >Any Other Details</span></p>
+                  <p class="text-start text-center"><span class="bg-white p-3 rounded-3 text-black text-underline text-center" id="any_other_details">Any Other Details <i class="fa-solid fa-chevron-down"></i></span></p>
                 </div>
 
-                <div class="item-4">
+                <div class="item-4 input_wrapper6" style="display: none;">
                   <label for="purpose" class="input-label">Any Other Details*</label>
                   <textarea name="" id="" name="purpose" id="purpose" required class="input-field_textarea" style="width: 100%;" rows="5" ></textarea>
                 </div>
                 <div class="w-100 item-1 mt-5" style="margin-top: 50px;">
-                    <button class="btn btn-success text-black mt-5" type="submit">Book Now</button>
+                    <button class="btn btn-primary text-black mt-5" type="submit">Book Now</button>
                 </div>
             </form>
         </div>
     </section>
   </article>
   </main>
-  <a href="#top" class="go-top" data-go-top>
-    <ion-icon name="chevron-up-outline"></ion-icon>
-  </a>
+
+  <script>
+    let personal_details = document.getElementById("personal_details");
+    personal_details.addEventListener('click', function() {
+        let inputWrappers = document.getElementsByClassName("input_wrapper1");
+        for (let i = 0; i < inputWrappers.length; i++) {
+            if (inputWrappers[i].style.display === "block") {
+                inputWrappers[i].style.display = "none";
+            } else {
+                inputWrappers[i].style.display = "block";
+            }
+        }
+    });
+
+    let travel_details = document.getElementById("travel_details");
+    travel_details.addEventListener('click', function() {
+        let inputWrappers = document.getElementsByClassName("input_wrapper2");
+        for (let i = 0; i < inputWrappers.length; i++) {
+            if (inputWrappers[i].style.display === "block") {
+                inputWrappers[i].style.display = "none";
+            } else {
+                inputWrappers[i].style.display = "block";
+            }
+        }
+    });
+
+    let accomodation = document.getElementById("accomodation");
+    accomodation.addEventListener('click', function() {
+        let inputWrappers = document.getElementsByClassName("input_wrapper3");
+        for (let i = 0; i < inputWrappers.length; i++) {
+            if (inputWrappers[i].style.display === "block") {
+                inputWrappers[i].style.display = "none";
+            } else {
+                inputWrappers[i].style.display = "block";
+            }
+        }
+    });
+
+    let work_day = document.getElementById("work_day");
+    work_day.addEventListener('click', function() {
+        let inputWrappers = document.getElementsByClassName("input_wrapper4");
+        for (let i = 0; i < inputWrappers.length; i++) {
+            if (inputWrappers[i].style.display === "block") {
+                inputWrappers[i].style.display = "none";
+            } else {
+                inputWrappers[i].style.display = "block";
+            }
+        }
+    });
+
+    let pick_up_drop = document.getElementById("pick_up_drop");
+    pick_up_drop.addEventListener('click', function() {
+        let inputWrappers = document.getElementsByClassName("input_wrapper5");
+        for (let i = 0; i < inputWrappers.length; i++) {
+            if (inputWrappers[i].style.display === "block") {
+                inputWrappers[i].style.display = "none";
+            } else {
+                inputWrappers[i].style.display = "block";
+            }
+        }
+    });
+
+    let any_other_details = document.getElementById("any_other_details");
+    any_other_details.addEventListener('click', function() {
+        let inputWrappers = document.getElementsByClassName("input_wrapper6");
+        for (let i = 0; i < inputWrappers.length; i++) {
+            if (inputWrappers[i].style.display === "block") {
+                inputWrappers[i].style.display = "none";
+            } else {
+                inputWrappers[i].style.display = "block";
+            }
+        }
+    });
+
+
+  </script>
   <script src="./assets/js/script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
