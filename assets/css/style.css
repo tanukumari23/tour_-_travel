@@ -389,7 +389,7 @@ body { background: var(--white); }
   background-blend-mode: overlay;
   display: grid;
   place-items: center;
-  min-height: 400px;
+  min-height: 300px;
   text-align: center;
   padding-top: 125px;
 }
