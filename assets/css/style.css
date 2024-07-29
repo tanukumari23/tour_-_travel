@@ -428,7 +428,7 @@ color: black;
 .tour-search-form .input-label {
   color: var(--black);
   font-size: var(--fs-4);
-  margin-left: 20px;
+  margin-left: 10px;
   margin-bottom: 10px;
 }
 

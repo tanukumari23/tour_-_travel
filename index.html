@@ -27,7 +27,7 @@
 
         </div>
       </section>
-      <section class="tour-search mb-0">
+      <section class="tour-search mb-1">
         <div class="container">
             <form action="" class="tour-search-form">
               <div class="item2 p-5 text-center">
@@ -108,12 +108,12 @@
                 </div>
     
                 <div class="input-wrapper input_wrapper2" style="display: none;">
-                  <label for="preferred-train" class="input-label">Any Preferred train/flight*</label>
+                  <label for="preferred-train" class="input-label">Preferred train/flight*</label>
                   <input type="text" name="preferred-train" id="preferred-train" required class="input-field" placeholder="Enter Prefereed train/flight">
                 </div>
 
                 <div class="input-wrapper input_wrapper2" style="display: none;">
-                  <label for="preferred-meal" class="input-label">Any Meal*</label>
+                  <label for="preferred-meal" class="input-label">Meal*</label>
                   <input type="text" name="preferred-meal" id="preferred-meal" required class="input-field" placeholder="Enter Prefereed meal">
                 </div>
 
@@ -166,6 +166,10 @@
                   <label for="pref_hotel" class="input-label">Preferred Hotel*</label>
                   <input type="text" name="pref_hotel" id="pref_hotel" required placeholder="Enter Preferred Hotel" class="input-field">
                 </div>
+                <div class="input-wrapper input_wrapper3" style="display: none;">
+                  <label for="pref_location" class="input-label">Preferred Location*</label>
+                  <input type="text" name="pref_location" id="pref_location" required placeholder="Enter Preferred Location" class="input-field">
+                </div>
 
 
                 
@@ -189,6 +193,18 @@
                 <div class="input-wrapper input_wrapper5" style="display: none;">
                   <label for="drop_point" class="input-label">Drop Point*</label>
                   <input type="text" name="drop_point" id="drop_point" required placeholder="Enter Drop Point" class="input-field">
+                </div>
+                <div class="input-wrapper input_wrapper5" style="display: none;">
+                  <label for="people_number" class="input-label">No. of People*</label>
+                  <select name="people_number" id="people_number" required class="input-field">
+                    <option value="Select" selected disabled>Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
                 </div>
 
                 <!--Work Day Details  -->
@@ -231,7 +247,7 @@
                   <label for="purpose" class="input-label">Any Other Details*</label>
                   <textarea name="" id="" name="purpose" id="purpose" required class="input-field_textarea" style="width: 100%;" rows="5" ></textarea>
                 </div>
-                <div class="w-100 item-1 mt-5" style="margin-top: 50px;">
+                <div class="w-100 item-1 mt-5 " style="margin-top: 50px;">
                     <button class="btn btn-primary text-black mt-5" type="submit">Book Now</button>
                 </div>
             </form>
